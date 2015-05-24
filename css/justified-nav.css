@@ -104,6 +104,24 @@ nav {
     font-weight: 900;
  }
 
+#aboutpage {
+  padding: 50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+.introduction {
+    padding-left: 20px;
+}
+
+.portrait {
+  width: 100%;
+  height: auto;
+}
+
+.quietlink {
+  color:#000000;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
