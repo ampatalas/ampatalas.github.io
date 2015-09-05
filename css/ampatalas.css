@@ -1,5 +1,12 @@
 .square {
-    background-image: url("/images/android/myguide/logo.png");
     width: 25vw;
     height: 25vw;
+}
+
+.gigsmap {
+	background-image: url("/images/ios/gigsmap.png");
+}
+
+.tropiciel {
+	background-image: url("/images/ios/tropiciel.png");
 }
