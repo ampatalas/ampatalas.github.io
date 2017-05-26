@@ -11,8 +11,9 @@
 }
 
 .portrait {
-  width: 300px;
+  width: 150px;
   height: auto;
+  margin-bottom: 20px;
 }
 
 .gigsmap {
