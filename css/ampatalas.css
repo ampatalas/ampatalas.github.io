@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.social > * {
+  margin: 0px 10px;
+}
+
 .gigsmap {
 	background-image: url("/images/ios/gigsmap.png");
 }
