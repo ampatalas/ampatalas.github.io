@@ -22,10 +22,11 @@
   margin-bottom: 20px;
 }
 
-.gigsmap {
-	background-image: url("/images/ios/gigsmap.png");
+.introduction {
+    padding-left: 20px;
 }
 
-.tropiciel {
-	background-image: url("/images/ios/tropiciel.png");
+/* Background pattern from subtlepatterns.com */
+.jumbotron {
+  background-image: url("/images/pw_maze_white.png");
 }

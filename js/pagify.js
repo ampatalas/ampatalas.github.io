@@ -75,7 +75,7 @@
           if(!pageLoads) runAfterLoading();
         }, 'text');
       });
-    } 
+    }
     else runAfterLoading();
   };
 

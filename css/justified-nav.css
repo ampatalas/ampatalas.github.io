@@ -26,9 +26,7 @@ nav {
   text-align: center;
 }
 
-/* Background pattern from subtlepatterns.com */
 .jumbotron {
-  background-image: url("/images/pixel_weave.png");
   padding-left: 0px;
   padding-right: 0px;
   width: 100%;
@@ -110,15 +108,6 @@ nav {
   font-size: 16px;
 }
 
-.introduction {
-    padding-left: 20px;
-}
-
-.portrait {
-  width: 100%;
-  height: auto;
-}
-
 .quietlink {
   color:#000000;
 }
@@ -131,5 +120,11 @@ nav {
   .footer {
     padding-right: 0;
     padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #navmenu {
+    width: 100%;
   }
 }
