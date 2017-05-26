@@ -6,17 +6,7 @@ $(document).ready(function() {
     	return true;
     });
 
-    $("#android").click(function() {
-    	setActiveClass($(this));
-    	return true;
-    });
-
-    $("#ios").click(function() {
-    	setActiveClass($(this));
-    	return true;
-    });
-
-    $("#wp").click(function() {
+    $("#projects").click(function() {
     	setActiveClass($(this));
     	return true;
     });

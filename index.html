@@ -4,8 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="The 'about' website of a software developer - Agnieszka Patalas.">
+    <meta name="author" content="Agnieszka Patalas">
     <link rel="icon" href="favicon.ico">
 
     <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
@@ -15,7 +15,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
     <link href="css/justified-nav.css" rel="stylesheet">
@@ -52,11 +52,11 @@
     $(document).ready(function() {
 
 
-    $('#page_holder').pagify({ 
-        pages: ['about', 'android', 'ios', 'wp'],
+    $('#page_holder').pagify({
+        pages: ['about', 'projects'],
         default: 'about', // The name of a page or null for an empty div
         animation: 'slideDown'
-    }); 
+    });
 
       $('.slideshow').cycle({
         fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
@@ -68,35 +68,25 @@
   </head>
 
   <body>
-
-    <!-- Jumbotron -->
     <div class="jumbotron">
-        <h1>Agnieszka<strong>Patalas</strong></h1>
-        <p class="lead">Portfolio</p>
+      <h1>Agnieszka<strong>Patalas</strong></h1>
     </div>
 
     <div class="masthead">
         <nav>
           <ul class="nav nav-justified cl-effect-1" id="navmenu">
             <li class="active" id="about"><a href="#about">About</a></li>
-            <li id="android"><a href="#android">Android</a></li>
-            <li id="ios"><a href="#ios">iOS</a></li>
-            <li id="wp"><a href="#wp">Windows Phone</a></li>
+            <li id="projects"><a href="#projects">Projects and publications</a></li>
           </ul>
         </nav>
       </div>
     <div class="container">
       <div id="page_holder">
       </div>
+    </div>
 
-      <!-- Site footer -->
-     
-
-    </div> <!-- /container -->
-
-     <footer class="footer">
-        <p>© A. M. Patalas 2015</p>
-      </footer>
-  
-
-</body></html>
+    <footer class="footer">
+      <p>© Agnieszka Patalas</p>
+    </footer>
+  </body>
+</html>

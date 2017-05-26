@@ -3,6 +3,10 @@
     height: 25vw;
 }
 
+.social {
+  text-align: center;
+}
+
 .gigsmap {
 	background-image: url("/images/ios/gigsmap.png");
 }
