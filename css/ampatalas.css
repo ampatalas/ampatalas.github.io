@@ -6,6 +6,15 @@
   margin: 0px 10px;
 }
 
+.img-circle {
+    border-radius: 50%;
+}
+
+.portrait {
+  width: 300px;
+  height: auto;
+}
+
 .gigsmap {
 	background-image: url("/images/ios/gigsmap.png");
 }
