@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-  background-color: #AD8EAD;
+  background-color: #ce4848;
 }
 
 #navmenu li a {
@@ -15,7 +15,7 @@ nav {
 }
 
 #navmenu li a:hover {
-  background-color: #AD8EAD;
+  background-color: #b73333;
 }
 
 .footer {
@@ -42,12 +42,12 @@ nav {
   text-align: center;
   font-family: 'Poiret One', cursive;
   text-transform: lowercase;
-  color: #C9BCCC;
+  color: #777171;
   margin-bottom: 0px;
 }
 
 .jumbotron h1 strong {
-  color: #ffffff;
+  color: #ce4848;
 }
 
 .jumbotron .lead {
@@ -133,4 +133,3 @@ nav {
     padding-left: 0;
   }
 }
-
