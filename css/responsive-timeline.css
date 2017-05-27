@@ -147,6 +147,11 @@
     }
 
 @media (max-width: 767px) {
+
+  .timeline-year {
+    text-align: left;
+  }
+
     ul.timeline:before {
         left: 40px;
     }
