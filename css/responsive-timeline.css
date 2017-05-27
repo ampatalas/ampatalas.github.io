@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.timeline-year {
+  text-align: center;
+}
+
     .timeline:before {
         top: 0;
         bottom: 0;
@@ -113,19 +117,19 @@
             }
 
 .timeline-badge.android {
-    background-color: #A4C639;
+    background-color: #A4C639 !important;
 }
 
 .timeline-badge.ios {
-    background-color: #DBDDDE;
+    background-color: #DBDDDE !important;
 }
 
 .timeline-badge.scholar {
-    background-color: #B32216;
+    background-color: #B32216 !important;
 }
 
 .timeline-badge.other {
-    background-color: #F4F4F4;
+    background-color: #F4F4F4 !important;
 }
 
 .timeline-title {
