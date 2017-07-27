@@ -26,6 +26,42 @@
     padding-left: 20px;
 }
 
+.timeline-body-with-image {
+  padding: 1%;
+}
+
+.image-holder {
+  width: 35%;
+  float: left;
+}
+
+.timeline-image {
+  width: 100%;
+  padding: 5%;
+  margin-left: -2.5%;
+}
+
+.text-holder {
+  width: 63%;
+  float: right;
+}
+
+.image-holder-inverted {
+  width: 35%;
+  float: right;
+}
+
+.timeline-image-inverted {
+  width: 100%;
+  padding: 5%;
+  margin-right: -2.5%;
+}
+
+.text-holder-inverted {
+  width: 63%;
+  float: left;
+}
+
 /* Background pattern from subtlepatterns.com */
 .jumbotron {
   background-image: url("/images/pw_maze_white.png");
